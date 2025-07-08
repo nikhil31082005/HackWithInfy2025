@@ -38,7 +38,7 @@ public class ActivitySelectionProblem {
 
         int max = 1;
         for(int ele: dp){
-            max = Math.max(max, ele);
+            max = Math.min(max, ele);
         }
         System.out.println(max);
     }
